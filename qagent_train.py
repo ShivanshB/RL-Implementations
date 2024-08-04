@@ -3,7 +3,7 @@ from tqdm import tqdm
 from maze_env import MazeEnv
 from qagent import QAgent
 
-def train_agent(env, agent, episodes=1):
+def train_agent(env, agent, episodes=100):
     for episode in tqdm(range(episodes)):
         state, _ = env.reset()
         done = False
