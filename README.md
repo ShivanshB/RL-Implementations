@@ -4,7 +4,7 @@
 
 Below is the performance of my q-learning algorithm across various lengths of training time. The maze environment and animations are custom built and randomized.
 
-<div style="display: flex; flex-wrap: wrap; justify-content: center; max-width: 300px; margin: auto;">
+<div style="display: flex; flex-wrap: wrap; justify-content: center; max-width: 100px; margin: auto;">
   <div style="flex: 1 1 45%; margin: 10px; text-align: center; box-sizing: border-box;">
     <img src="https://github.com/user-attachments/assets/33fa15ff-e185-403a-9601-1bb800fc0c0a" alt="1000 Episodes of Training" style="max-width: 100%; height: auto;" />
     <p><em>1000 Episodes of Training</em></p>
