@@ -66,7 +66,7 @@ class MazeEnv(gym.Env):
         self.maze[tuple(self.start_position)] = 4
 
         # reset animations per episode
-        self.intermediates['training'] = []
+        self.intermediates['training'] = [np.array(self.maze)]
         
         observation = tuple(self.agent_position)
         info = {}
@@ -85,6 +85,10 @@ class MazeEnv(gym.Env):
         if self.is_valid_position(new_position):
             # clear previous position     
             self.maze[tuple(self.agent_position)] = 0 
+
+            # set start and end squares
+            self.maze[tuple(self.start_position)] = 3
+            self.maze[tuple(self.finish)] = 2
 
             # move agent to new position 
             self.agent_position = new_position

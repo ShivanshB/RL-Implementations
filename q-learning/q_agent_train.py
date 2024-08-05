@@ -1,7 +1,11 @@
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 import gym
 from tqdm import tqdm
-from maze_env import MazeEnv
-from qagent import QAgent
+from ..maze_env import MazeEnv
+from q_agent import QAgent
 
 def train_agent(env, agent, episodes=100):
     for episode in tqdm(range(episodes)):
