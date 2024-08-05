@@ -9,7 +9,7 @@ Below is the performance of my q-learning algorithm across various lengths of tr
     <tr>
       <td style="width: 50%; vertical-align: top; text-align: center;">
         <div style="display: flex; flex-direction: column; align-items: center;">
-          <img src="https://github.com/user-attachments/assets/33fa15ff-e185-403a-9601-1bb800fc0c0a" alt="1000 Episodes of Training" loop=infinite style="max-width: 100%; height: auto; display: block; margin: 0 auto;" />
+          <img src="https://github.com/user-attachments/assets/33fa15ff-e185-403a-9601-1bb800fc0c0a" alt="1000 Episodes of Training" loop="infinite" style="max-width: 100%; height: auto; display: block; margin: 0 auto;" />
           <p style="margin-top: 10px;"><em>1000 Episodes of Training</em></p>
         </div>
       </td>
