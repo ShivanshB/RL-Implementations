@@ -2,6 +2,9 @@
 
 ## Deep Q-Network (DQN)
 
+![training copy]()
+
+
 Below is the performance of my DQN across multiple maze sizes. The maze environment and animations are custom built and randomized.
 
 <div style="display: flex; justify-content: center; align-items: center; width: 100%; margin: auto;">
