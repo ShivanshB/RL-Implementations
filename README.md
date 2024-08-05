@@ -9,7 +9,7 @@ Below is the performance of my DQN across multiple maze sizes. The maze environm
     <tr>
       <td style="width: 50%; vertical-align: top; text-align: center;">
         <div style="display: flex; flex-direction: column; align-items: center;">
-          <img src="https://github.com/user-attachments/assets/33fa15ff-e185-403a-9601-1bb800fc0c0a" alt="1000 Episodes of Training" style="max-width: 100%; height: auto; display: block; margin: 0 auto;" />
+          <img src="https://github.com/user-attachments/assets/ba837f86-84d3-42fb-98b1-c60741158f3e" alt="1000 Episodes of Training" style="max-width: 100%; height: auto; display: block; margin: 0 auto;" />
           <p style="margin-top: 10px;"><em>100 Episodes of Training on a 7x7 Maze</em></p>
         </div>
       </td>
