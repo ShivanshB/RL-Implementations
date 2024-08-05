@@ -1,9 +1,6 @@
 # Reinforcement Learning Agents Prototyping
 
-## Deep Q-Netw!
-[training copy](https://github.com/user-attachments/assets/415f983e-7d27-4b1e-8ee5-53027cc15c7a)
-ork (DQN)
-
+## Deep Q-Network (DQN)
 
 Below is the performance of my DQN across multiple maze sizes. The maze environment and animations are custom built and randomized.
 
